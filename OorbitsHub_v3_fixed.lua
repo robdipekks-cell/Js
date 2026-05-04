@@ -535,7 +535,7 @@ local CloseBtn = New("TextButton", {
     Position         = UDim2.new(1, -38, 0.5, -14),
     BackgroundColor3 = Color3.fromRGB(200, 60, 60),
     BackgroundTransparency = 0.3,
-    Text             = "✕",
+    Text             = "X",
     TextColor3       = C.white,
     TextSize         = 13,
     Font             = Enum.Font.GothamBold,
@@ -663,7 +663,7 @@ New("TextLabel", {
 -- Tag badges
 local TagFrame = New("Frame", {
     Size             = UDim2.new(1, -24, 0, 24),
-    Position         = UDim2.new(0, 12, 0, 352),
+    Position         = UDim2.new(0, 12, 0, 322),
     BackgroundTransparency = 1,
     ZIndex           = 4,
 }, RightPanel)
@@ -697,7 +697,7 @@ MakeTag("UPDATED",    C.accent2)
 -- ─────── AUTO-EXECUTE ROW ───────
 local AEBar = New("Frame", {
     Size             = UDim2.new(1, -24, 0, 30),
-    Position         = UDim2.new(0, 12, 0, 383),
+    Position         = UDim2.new(0, 12, 0, 370),
     BackgroundColor3 = C.card,
     ZIndex           = 4,
 }, RightPanel)
@@ -750,7 +750,7 @@ Corner(12, ExecWrap)
 New("UIGradient", {Color = ColorSequence.new(C.accent, C.accent2), Rotation = 90}, ExecWrap)
 
 local ExecGlow = New("Frame", {
-    Size             = UDim2.new(1, 20, 1, 20),
+    Size             = UDim2.new(1, 10, 1, 10),
     Position         = UDim2.new(0, -10, 0, -10),
     BackgroundColor3 = C.accent,
     BackgroundTransparency = 1,
