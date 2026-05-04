@@ -392,7 +392,7 @@ New("TextLabel", {
 
 New("TextLabel", {
     Size             = UDim2.new(1, -60, 0, 16),
-    Position         = UDim2.new(0, 56, 0, 30),
+    Position         = UDim2.new(0, 56, 0, 45),
     BackgroundTransparency = 1,
     Text             = "SCRIPT HUB",
     TextColor3       = C.accent,
